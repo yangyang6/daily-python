@@ -8,8 +8,14 @@ foods = ["egg","beaf","dock"]
 # print(foods)
 
 # 第二种方式(最简单的方式)
-foods = []
-print(foods)
+# foods = []
+# print(foods)
 
+#第三种方式
+#创建两个列表解决循环删除列表中多个元素的问题
+del_foods = ["egg","beaf","dock"]
+for i in del_foods:
+    foods.remove(i)
+print(foods)
 
         
